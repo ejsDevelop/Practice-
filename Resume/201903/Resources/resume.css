@@ -1,15 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial; 
+    background-color: lightskyblue;
+   }
+
+   .container-opening {
+       display: flex;
+       flex-wrap: wrap;
+       background-color: rgb(230, 212, 173)
+       
+       
    }
    
    .main-image {
     border: solid 4px black;
-    border-radius: 4%;
+    border-radius: 10%;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
    }
 
    h1 {
-       background-color: #e2e2e2;
-       padding: 5px;
+    
    }
 
    .section-title {
