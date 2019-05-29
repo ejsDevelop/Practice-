@@ -1,0 +1,193 @@
+/*Default CSS*/
+body {
+	background-color: white /*linear-gradient(to bottom, rgba(35, 37, 38, 1), rgba(65, 67, 69, 1))*/;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	background-color: #333;
+	color: white;
+
+}
+
+nav #nav-list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	padding: 16px;
+	text-align: center;
+	border: 1px solid black;
+	transition: background-color 1s ease;
+}
+
+nav ul li:hover {
+  background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#main {
+	background: linear-gradient( to left, rgba(35, 37, 38, .3), rgba(65, 67, 69, .3)), url(landingBg.jpg);
+	min-height: 500px;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+
+
+}
+
+#main h1 {
+	text-align: center;
+	margin: 0px;
+	font-size: 2.5rem;
+	padding: 1rem;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	transform: uppercase;
+
+
+}
+ #main p {
+ 	width: 50%;
+ 	text-align: center;
+ }
+
+
+#testimonials {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.customer img{
+	border: 2.5px solid #333	;
+	padding: 0px;
+	border-radius: 100%;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.3);
+	transition: transform; 3px;
+}
+
+.customer img:hover{
+	box-shadow: 5px	10px 18px rgba(0, 0, 0, 0.5);
+	
+}
+
+.customer p {
+	text-align: center;
+
+
+}
+
+
+
+#showcase {
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-direction: column;*/
+	justify-content: center;
+	align-content: center;
+	align-content: space-between;
+	text-align: center;
+
+}
+
+.cards {
+	/*height: 400px;*/
+	width: 250px;
+	padding: 5px;
+	margin: 10px;
+	box-shadow: 0px 0px 5px;
+}
+
+.cards .card-image {
+	display: flex;
+    justify-content: center;
+	align-content: center;
+	overflow: hidden;
+	height: 250px;
+	width: 250px;
+
+}
+
+.cards .card-image img {
+	 height: 100%;
+	 transition: all .2s ease-in-out;
+}
+
+.cards .card-image img:hover {
+	transform: scale(1.1);
+}
+
+.cards .card-title {
+	padding: 0px;
+	margin: 0px;
+}
+
+.cards .button {
+	margin: 10px;
+}
+
+.cards .button a {
+	position: 90% 0%;
+	padding:5px 10px;
+	background-color: red;
+	color: white;
+	border-radius: 50px 50px
+}
+
+footer {
+	background-color: #161616;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer a{ padding: 20px
+}
+
+
+#media-icons ul {
+	display: flex;
+
+	list-style-type: none;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 500px){
+	nav ul{
+		text-align: right;
+	}
+	nav ul li{
+		padding: none ;
+		display: inline-block;
+		border: none;
+		text-align: left;
+	
+	}
+}
