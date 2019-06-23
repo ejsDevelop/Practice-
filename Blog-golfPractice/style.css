@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #F8ECC2; 
+}
+/* Navigation */
+
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  background-color: #eee;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  float: right;
+  list-style: none;
+}
+
+ul.topnav li.logo {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: Orange;
+}
+
+ul.topnav li a {
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+ul.topnav li a:hover {
+  background-color: #0080ff;
+  color: white;
+}                   
+
+
+
+div h1.opening-welcome {
+  background-color: red;
+  color: white;
+  padding: 14px;
+
+} 
+
+.date {
+  font-size: 28px;
+  font-weight: bold;
+  color: green;
+  margin-left: 10px;
+}
+
+div.blog-post {
+
+}
+
+div.blog-post p {
+  width: 100%;
+  
+  color: #a52a2a;
+  word-wrap: break-word;
+  padding: 10px;
+ 
+  
+}
+
+.image-post img {
+width: 100%;
+height: 400px; 
+
+}
+
+/*   Pic of Julie at the Range on the 11th of June      */
+.julie-pic{
+  height: 400px;
+margin-left: 10px;
+}
+
+
+/*      Mail       */
+.mail {
+  color: brown;
+  font-size: 18px;
+}
+
+/*     Blues Post     */
+
+#Stl-Blues {
+  color: blue;
+}
+
+/*    Rotate Pic(s)    */
+#EJS0622 {
+  transform: rotate(90deg);
+  height: 300px;
+  margin-top: 59px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  
+}
+
+#chipping {
+  height: 390px;
+  margin-bottom: 15px;
+}
+
+
