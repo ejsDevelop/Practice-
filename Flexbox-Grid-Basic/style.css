@@ -1,0 +1,21 @@
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Grid-cell {
+  flex: 1;
+  height: 300px;
+  width: 100%;
+  text-align: center
+}
+
+#images {
+  height: 400px;
+  padding: 20px;
+
+ 
+}
